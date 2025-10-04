@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    :root { --pico-font-size: 105%; }
+    header.container { padding: 2rem 0 0; }
+    .badge { display:inline-block; padding:.25rem .5rem; border-radius:.5rem; background:#e8eefc; color:#223; font-size:.8rem; }
+    footer { margin-top: 3rem; font-size: .9rem; opacity:.8; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul>
+        <li><strong><a href="{{ '/' | relative_url }}">{{ site.title }}</a></strong></li>
+      </ul>
+      <ul>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/certificates/' | relative_url }}">Certificates</a></li>
+        <li><a href="https://github.com/{{ site.github_username | default: '' }}" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="container">
+    <hr />
+    <p>© {{ "now" | date: "%Y" }} {{ site.author.name | default: site.title }}. Built with Jekyll and Pico.css.</p>
+  </footer>
+</body>
+</html>
