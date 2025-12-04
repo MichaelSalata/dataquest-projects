@@ -45,20 +45,33 @@ def convert_notebooks():
                 
                 # Run jupyter nbconvert
                 # We use the venv jupyter if available, otherwise system jupyter
-                jupyter_cmd = ["./venv/bin/jupyter", "nbconvert", "--to", "html", str(notebook_path), "--output", str(output_html_path)]
+                # Added --no-prompt to remove input prompts from the output HTML
+                jupyter_cmd = ["./venv/bin/jupyter", "nbconvert", "--to", "html", "--no-prompt", str(notebook_path), "--output", str(output_html_path)]
                 
                 # Fallback to system jupyter if venv one doesn't exist (or we are not in root)
                 if not Path("./venv/bin/jupyter").exists():
-                     jupyter_cmd = ["jupyter", "nbconvert", "--to", "html", str(notebook_path), "--output", str(output_html_path)]
+                     jupyter_cmd = ["jupyter", "nbconvert", "--to", "html", "--no-prompt", str(notebook_path), "--output", str(output_html_path)]
 
                 try:
                     subprocess.run(jupyter_cmd, check=True, capture_output=True)
                     
+                    # Determine title based on project and notebook name
+                    title = project_name
+                    
+                    # Special handling for Lending Club Predictions
+                    if "Lending Club Predictions" in project_name:
+                        if "model_training" in notebook_path.name:
+                            title = "Lending_Club_Predictions - model_training"
+                        elif "feature_prep" in notebook_path.name:
+                            title = "Lending_Club_Predictions - feature_prep"
+                        elif "Data_Cleaning" in notebook_path.name:
+                            title = "Lending_Club_Predictions - Cleaning"
+                    
                     # Add to metadata
                     projects_metadata.append({
                         "id": f"{safe_project_name}_{safe_notebook_name}",
-                        "title": f"{project_name} - {notebook_path.stem}",
-                        "description": f"Analysis of {project_name}", # Placeholder description
+                        "title": title,
+                        "description": "", # Empty description as requested
                         "htmlFile": f"/projects/{html_filename}",
                         "originalFile": str(notebook_path)
                     })
