@@ -6,7 +6,7 @@ function Hero() {
                     Data Analysis <span className="gradient-text">Portfolio</span>
                 </h1>
                 <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto 2.5rem' }}>
-                    A collection of data science and analysis projects completed during my Dataquest journey.
+                    A collection of data science and analysis projects I completed during my Dataquest journey.
                     Exploring insights through Python, SQL, and Machine Learning.
                 </p>
                 <a href="#projects" className="btn btn-primary">
