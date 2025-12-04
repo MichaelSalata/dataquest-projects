@@ -1,19 +1,5 @@
 [
   {
-    "id": "disatisfied_employees_per_employment_duration_disatisfied_employees_per_employment_duration",
-    "title": "Disatisfied Employees per Employment Duration - Disatisfied Employees per Employment Duration",
-    "description": "Analysis of Disatisfied Employees per Employment Duration",
-    "htmlFile": "/projects/disatisfied_employees_per_employment_duration_disatisfied_employees_per_employment_duration.html",
-    "originalFile": "Projects/Disatisfied Employees per Employment Duration/Disatisfied Employees per Employment Duration.ipynb"
-  },
-  {
-    "id": "disatisfied_employees_per_employment_duration_disatisfied_employees_per_employment_duration_solution",
-    "title": "Disatisfied Employees per Employment Duration - Disatisfied Employees per Employment Duration Solution",
-    "description": "Analysis of Disatisfied Employees per Employment Duration",
-    "htmlFile": "/projects/disatisfied_employees_per_employment_duration_disatisfied_employees_per_employment_duration_solution.html",
-    "originalFile": "Projects/Disatisfied Employees per Employment Duration/Disatisfied Employees per Employment Duration Solution.ipynb"
-  },
-  {
     "id": "predicting_car_prices_predicting_car_prices",
     "title": "Predicting Car Prices - Predicting Car Prices",
     "description": "Analysis of Predicting Car Prices",
