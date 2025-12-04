@@ -1,99 +1,92 @@
 [
   {
     "id": "predicting_car_prices_predicting_car_prices",
-    "title": "Predicting Car Prices - Predicting Car Prices",
-    "description": "Analysis of Predicting Car Prices",
+    "title": "Predicting Car Prices",
+    "description": "",
     "htmlFile": "/projects/predicting_car_prices_predicting_car_prices.html",
     "originalFile": "Projects/Predicting Car Prices/Predicting Car Prices.ipynb"
   },
   {
     "id": "creating_a_kaggle_workflow_creating_a_kaggle_workflow",
-    "title": "Creating a Kaggle Workflow - Creating a Kaggle Workflow",
-    "description": "Analysis of Creating a Kaggle Workflow",
+    "title": "Creating a Kaggle Workflow",
+    "description": "",
     "htmlFile": "/projects/creating_a_kaggle_workflow_creating_a_kaggle_workflow.html",
     "originalFile": "Projects/Creating a Kaggle Workflow/Creating a Kaggle Workflow.ipynb"
   },
   {
     "id": "predicting_house_sale_prices_predicting_house_sale_prices",
-    "title": "Predicting House Sale Prices - Predicting House Sale Prices",
-    "description": "Analysis of Predicting House Sale Prices",
+    "title": "Predicting House Sale Prices",
+    "description": "",
     "htmlFile": "/projects/predicting_house_sale_prices_predicting_house_sale_prices.html",
     "originalFile": "Projects/Predicting House Sale Prices/Predicting House Sale Prices.ipynb"
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(feature_prep)",
-    "title": "Lending Club Predictions - Lending_Club_Predicting_Loan_Result_(feature_prep)",
-    "description": "Analysis of Lending Club Predictions",
+    "title": "Lending_Club_Predictions - feature_prep",
+    "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(feature_prep).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(feature_prep).ipynb"
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(model_training)",
-    "title": "Lending Club Predictions - Lending_Club_Predicting_Loan_Result_(model_training)",
-    "description": "Analysis of Lending Club Predictions",
+    "title": "Lending_Club_Predictions - model_training",
+    "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(model_training).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(model_training).ipynb"
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(data_cleaning)",
-    "title": "Lending Club Predictions - Lending_Club_Predicting_Loan_Result_(Data_Cleaning)",
-    "description": "Analysis of Lending Club Predictions",
+    "title": "Lending_Club_Predictions - Cleaning",
+    "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(data_cleaning).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(Data_Cleaning).ipynb"
   },
   {
     "id": "analyzing_nyc_high_school_data_schools",
-    "title": "Analyzing NYC High School Data - Schools",
-    "description": "Analysis of Analyzing NYC High School Data",
+    "title": "Analyzing NYC High School Data",
+    "description": "",
     "htmlFile": "/projects/analyzing_nyc_high_school_data_schools.html",
     "originalFile": "Projects/Analyzing NYC High School Data/Schools.ipynb"
   },
   {
     "id": "analyzing_cia_factbook_data_using_sql_analyzing_cia_factbook_data_using_sql",
-    "title": "Analyzing CIA Factbook Data Using SQL - Analyzing CIA Factbook Data Using SQL",
-    "description": "Analysis of Analyzing CIA Factbook Data Using SQL",
+    "title": "Analyzing CIA Factbook Data Using SQL",
+    "description": "",
     "htmlFile": "/projects/analyzing_cia_factbook_data_using_sql_analyzing_cia_factbook_data_using_sql.html",
     "originalFile": "Projects/Analyzing CIA Factbook Data Using SQL/Analyzing CIA Factbook Data Using SQL.ipynb"
   },
   {
     "id": "star_wars_survey_star_wars_survey",
-    "title": "Star Wars Survey - Star Wars Survey",
-    "description": "Analysis of Star Wars Survey",
+    "title": "Star Wars Survey",
+    "description": "",
     "htmlFile": "/projects/star_wars_survey_star_wars_survey.html",
     "originalFile": "Projects/Star Wars Survey/Star Wars Survey.ipynb"
   },
   {
     "id": "exploring_ebay_car_sales_data_exploring_ebay_car_sales_data",
-    "title": "Exploring eBay Car Sales Data - Exploring eBay Car Sales Data",
-    "description": "Analysis of Exploring eBay Car Sales Data",
+    "title": "Exploring eBay Car Sales Data",
+    "description": "",
     "htmlFile": "/projects/exploring_ebay_car_sales_data_exploring_ebay_car_sales_data.html",
     "originalFile": "Projects/Exploring eBay Car Sales Data/Exploring eBay Car Sales Data.ipynb"
   },
   {
     "id": "finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94",
-    "title": "Finding Heavy Traffic Indicators on I-94 - Finding Heavy Traffic Indicators on I-94",
-    "description": "Analysis of Finding Heavy Traffic Indicators on I-94",
+    "title": "Finding Heavy Traffic Indicators on I-94",
+    "description": "",
     "htmlFile": "/projects/finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94.html",
     "originalFile": "Projects/Finding Heavy Traffic Indicators on I-94/Finding Heavy Traffic Indicators on I-94.ipynb"
   },
   {
     "id": "answering_business_questions_using_sql_answering_business_questions_using_sql",
-    "title": "Answering Business Questions Using SQL - Answering Business Questions Using SQL",
-    "description": "Analysis of Answering Business Questions Using SQL",
+    "title": "Answering Business Questions Using SQL",
+    "description": "",
     "htmlFile": "/projects/answering_business_questions_using_sql_answering_business_questions_using_sql.html",
     "originalFile": "Projects/Answering Business Questions Using SQL/Answering Business Questions Using SQL.ipynb"
   },
   {
-    "id": "clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys___draft",
-    "title": "Clean and Analyze Employee Exit Surveys - Clean and Analyze Employee Exit Surveys - Draft",
-    "description": "Analysis of Clean and Analyze Employee Exit Surveys",
-    "htmlFile": "/projects/clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys___draft.html",
-    "originalFile": "Projects/Clean and Analyze Employee Exit Surveys/Clean and Analyze Employee Exit Surveys - Draft.ipynb"
-  },
-  {
     "id": "clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys",
-    "title": "Clean and Analyze Employee Exit Surveys - Clean and Analyze Employee Exit Surveys",
-    "description": "Analysis of Clean and Analyze Employee Exit Surveys",
+    "title": "Clean and Analyze Employee Exit Surveys",
+    "description": "",
     "htmlFile": "/projects/clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys.html",
     "originalFile": "Projects/Clean and Analyze Employee Exit Surveys/Clean and Analyze Employee Exit Surveys.ipynb"
   }

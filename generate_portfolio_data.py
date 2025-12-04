@@ -28,6 +28,10 @@ def convert_notebooks():
     for root, dirs, files in os.walk(PROJECTS_DIR):
         for file in files:
             if file.endswith(".ipynb") and not ".ipynb_checkpoints" in root:
+                # Skip the draft notebook
+                if file == "Clean and Analyze Employee Exit Surveys - Draft.ipynb":
+                    continue
+
                 notebook_path = Path(root) / file
                 
                 # Determine project name from the parent directory name

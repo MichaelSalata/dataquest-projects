@@ -7515,8 +7515,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Data-Background-Info">Data Background Info<a class="anchor-link" href="#Data-Background-Info">¶</a></h2><p>The data is exit surveys from employees of the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia.The original TAFE exit survey data is no longer available. We've made some slight modifications to the original datasets to make them easier to work with, including changing the encoding to UTF-8 (the original ones are encoded using cp1252.)</p>
 </div>
 </div>
@@ -7526,8 +7525,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Column-Titles:">Column Titles:<a class="anchor-link" href="#Column-Titles:">¶</a></h2><p>Below is a preview of a couple columns we'll work with from the <strong>dete_survey.csv</strong>:</p>
 <ul>
 <li><strong>ID:</strong> An id used to identify the participant of the survey</li>
@@ -7549,8 +7547,7 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Goal">Goal<a class="anchor-link" href="#Goal">¶</a></h2><p><strong>Answer the Question:</strong>
 Are employees who have only worked for the institutes for a short period of time resigning due to some kind of dissatisfaction? What about employees who have been at the job longer?</p>
 </div>
@@ -7561,7 +7558,6 @@ Are employees who have only worked for the institutes for a short period of time
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -7579,8 +7575,7 @@ Are employees who have only worked for the institutes for a short period of time
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="First-Impressions">First Impressions<a class="anchor-link" href="#First-Impressions">¶</a></h2>
 </div>
 </div>
@@ -7590,7 +7585,6 @@ Are employees who have only worked for the institutes for a short period of time
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># First Impressions for dete_survey</span>
@@ -7605,7 +7599,6 @@ Are employees who have only worked for the institutes for a short period of time
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
 RangeIndex: 822 entries, 0 to 821
@@ -7680,7 +7673,6 @@ memory usage: 258.6+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">dete_survey</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
@@ -7694,7 +7686,6 @@ memory usage: 258.6+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>ID                                       0
 SeparationType                           0
@@ -7763,7 +7754,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Quick exploration of the data</span>
@@ -7780,14 +7770,12 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>(822, 56)
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8173,8 +8161,7 @@ dtype: int64
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>observations based on the work above:</p>
 <ul>
 <li>dete_survey contains 'Not Stated' values that indicate values are missing, but they aren't represented as NaN.</li>
@@ -8190,8 +8177,7 @@ dtype: int64
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Finding-Null-Values-and-Basic-Column-Titles-Cleanup">Finding Null Values and Basic Column Titles Cleanup<a class="anchor-link" href="#Finding-Null-Values-and-Basic-Column-Titles-Cleanup">¶</a></h2>
 </div>
 </div>
@@ -8201,7 +8187,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dete_survey</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'dete_survey.csv'</span><span class="p">,</span> <span class="n">na_values</span><span class="o">=</span><span class="s1">'Not Stated'</span><span class="p">)</span>
@@ -8216,7 +8201,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>(822, 56)
 </pre>
@@ -8229,7 +8213,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># drop unnecessary dete columns</span>
@@ -8246,7 +8229,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>(822, 35)
 </pre>
@@ -8259,7 +8241,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">tafe_survey</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
@@ -8273,7 +8254,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>(702, 72)
 </pre>
@@ -8286,7 +8266,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># drop unnecessary tafe columns</span>
@@ -8303,7 +8282,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>(702, 23)
 </pre>
@@ -8316,8 +8294,7 @@ dtype: int64
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Dropped a bunch of columns not relevant to the analysis.</p>
 </div>
 </div>
@@ -8327,7 +8304,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dete_survey_updated</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">dete_survey_updated</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">' '</span><span class="p">,</span> <span class="s1">'_'</span><span class="p">)</span>
@@ -8342,7 +8318,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Index(['id', 'separationtype', 'cease_date', 'dete_start_date',
        'role_start_date', 'position', 'classification', 'region',
@@ -8366,7 +8341,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">new_col_name_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'Record ID'</span><span class="p">:</span> <span class="s1">'id'</span><span class="p">,</span>
@@ -8391,7 +8365,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Index(['id', 'Institute', 'WorkArea', 'cease_date', 'separationtype',
        'Contributing Factors. Career Move - Public Sector ',
@@ -8417,8 +8390,7 @@ dtype: int64
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Standardised the column names</p>
 <ul>
 <li>lower</li>
@@ -8434,8 +8406,7 @@ dtype: int64
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Filtering-out-people-who-didn't-quit">Filtering out people who didn't quit<a class="anchor-link" href="#Filtering-out-people-who-didn't-quit">¶</a></h2><h3 id="aka-Filtering-by-people-who-DID-quit">aka Filtering by people who DID quit<a class="anchor-link" href="#aka-Filtering-by-people-who-DID-quit">¶</a></h3>
 </div>
 </div>
@@ -8445,7 +8416,6 @@ dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dete_survey_updated</span><span class="p">[</span><span class="s1">'separationtype'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8459,7 +8429,6 @@ dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Age Retirement                          285
 Resignation-Other reasons               150
@@ -8480,7 +8449,6 @@ Name: separationtype, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># dete_resignations = dete_survey_updated[dete_survey_updated['separationtype'].str.contains("Resignation")]</span>
@@ -8497,7 +8465,6 @@ Name: separationtype, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Resignation                         311
 Age Retirement                      285
@@ -8516,7 +8483,6 @@ Name: separationtype, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tafe_survey_updated</span><span class="p">[</span><span class="s1">'separationtype'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8530,7 +8496,6 @@ Name: separationtype, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Resignation                 340
 Contract Expired            127
@@ -8548,7 +8513,6 @@ Name: separationtype, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># quit_filter = tafe_survey_updated['separationtype'].str.contains("Resignation")</span>
@@ -8567,7 +8531,6 @@ Name: separationtype, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Resignation    311
 Name: separationtype, dtype: int64</pre>
@@ -8580,7 +8543,6 @@ Name: separationtype, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tafe_resignations</span> <span class="o">=</span> <span class="n">tafe_survey_updated</span><span class="p">[</span><span class="n">tafe_survey_updated</span><span class="p">[</span><span class="s1">'separationtype'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Resignation'</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8595,7 +8557,6 @@ Name: separationtype, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Resignation    340
 Name: separationtype, dtype: int64</pre>
@@ -8608,8 +8569,7 @@ Name: separationtype, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Using the 'separationtype' column, I filtered the people who resigned.
 Removed out all other rows (aka people)</p>
 </div>
@@ -8620,8 +8580,7 @@ Removed out all other rows (aka people)</p>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Verifying-Employment-Start-&amp;-Cease-Years">Verifying Employment Start &amp; Cease Years<a class="anchor-link" href="#Verifying-Employment-Start-&amp;-Cease-Years">¶</a></h2>
 </div>
 </div>
@@ -8631,7 +8590,6 @@ Removed out all other rows (aka people)</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dete_resignations</span><span class="p">[</span><span class="s1">'cease_date'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8645,7 +8603,6 @@ Removed out all other rows (aka people)</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>2012       126
 2013        74
@@ -8673,7 +8630,6 @@ Name: cease_date, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># i tried to extract the year at the end of every date</span>
@@ -8693,7 +8649,6 @@ Name: cease_date, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>'\nres_year = dete_resignations[\'cease_date\'].str.extractall(r"(?P&lt;year&gt;[1-2][0-9]{3})$")\nres_year[\'year\'] = res_year[\'year\'].astype(float)\ndete_resignations[\'cease_date\'] = res_year[\'year\']\n'</pre>
 </div>
@@ -8705,7 +8660,6 @@ Name: cease_date, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extract the years and convert them to a float type</span>
@@ -8724,7 +8678,6 @@ Name: cease_date, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>2006.0      1
 2010.0      2
@@ -8741,7 +8694,6 @@ Name: cease_date, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Check the unique values and look for outliers</span>
@@ -8756,7 +8708,6 @@ Name: cease_date, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>1963.0     1
 1971.0     1
@@ -8809,7 +8760,6 @@ Name: dete_start_date, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tafe_resignations</span><span class="p">[</span><span class="s1">'cease_date'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">()</span>
@@ -8823,7 +8773,6 @@ Name: dete_start_date, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>2009.0      2
 2013.0     55
@@ -8840,8 +8789,7 @@ Name: cease_date, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Cleaned the dates in dete_resignations['cease_date']
 Sorted employment date range for everyone who resigned to better ID anomalous entries.</p>
 </div>
@@ -8852,7 +8800,6 @@ Sorted employment date range for everyone who resigned to better ID anomalous en
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># dete_resignations needs a column denoting employment duration (like tafe_resignations)</span>
@@ -8868,7 +8815,6 @@ Sorted employment date range for everyone who resigned to better ID anomalous en
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>3      7.0
 5     18.0
@@ -8885,8 +8831,7 @@ Name: institute_service, dtype: float64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Identifying-Dissatisfied-Resignations">Identifying Dissatisfied Resignations<a class="anchor-link" href="#Identifying-Dissatisfied-Resignations">¶</a></h2><ul>
 <li>Take all of the columns below</li>
 <li>combine them into their respective T/F 'dissatisfied' column</li>
@@ -8922,7 +8867,6 @@ Name: institute_service, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tafe_resignations</span><span class="p">[</span><span class="s1">'Contributing Factors. Dissatisfaction'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8936,7 +8880,6 @@ Name: institute_service, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>-                                         277
 Contributing Factors. Dissatisfaction      55
@@ -8950,7 +8893,6 @@ Name: Contributing Factors. Dissatisfaction, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tafe_resignations</span><span class="p">[</span><span class="s1">'Contributing Factors. Job Dissatisfaction'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8964,7 +8906,6 @@ Name: Contributing Factors. Dissatisfaction, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>-                      270
 Job Dissatisfaction     62
@@ -8978,7 +8919,6 @@ Name: Contributing Factors. Job Dissatisfaction, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">update_vals</span><span class="p">(</span><span class="n">resign_reason</span><span class="p">):</span>
@@ -8997,7 +8937,6 @@ Name: Contributing Factors. Job Dissatisfaction, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dissatisfaction_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Contributing Factors. Dissatisfaction'</span><span class="p">,</span> <span class="s1">'Contributing Factors. Job Dissatisfaction'</span><span class="p">]</span>
@@ -9014,7 +8953,6 @@ Name: Contributing Factors. Job Dissatisfaction, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>False    241
 True      91
@@ -9029,7 +8967,6 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dissatisfaction_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'job_dissatisfaction'</span><span class="p">,</span>
@@ -9054,7 +8991,6 @@ Name: dissatisfied, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>False    270
 True      41
@@ -9093,7 +9029,6 @@ Name: workload, dtype: int64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dete_resignations</span><span class="p">[</span><span class="s1">'dissatisfied'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dete_resignations</span><span class="p">[</span><span class="n">dissatisfaction_cols</span><span class="p">]</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">skipna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -9109,7 +9044,6 @@ Name: workload, dtype: int64
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>False    162
 True     149
@@ -9123,8 +9057,7 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Combine-the-DETE-and-TAFE-data-sets">Combine the DETE and TAFE data sets<a class="anchor-link" href="#Combine-the-DETE-and-TAFE-data-sets">¶</a></h2>
 </div>
 </div>
@@ -9134,7 +9067,6 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#  mark rows to signify their origin (helpful after merging)</span>
@@ -9150,7 +9082,6 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">combined</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">dete_resignations_up</span><span class="p">,</span> <span class="n">tafe_resignations_up</span><span class="p">],</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -9167,7 +9098,6 @@ Name: dissatisfied, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>torres_strait                                            0
 south_sea                                                3
@@ -9232,7 +9162,6 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Drop columns with less than 500 non null values</span>
@@ -9247,7 +9176,6 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># display the columns above the threshold (not dropped)</span>
@@ -9262,7 +9190,6 @@ dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>institute_service    563
 gender               592
@@ -9284,8 +9211,7 @@ dtype: int64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Clean-the-Employment-Duration-and-categorize-employees-by-it">Clean the Employment Duration and categorize employees by it<a class="anchor-link" href="#Clean-the-Employment-Duration-and-categorize-employees-by-it">¶</a></h2>
 </div>
 </div>
@@ -9295,7 +9221,6 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">combined_updated</span><span class="p">[</span><span class="s1">'institute_service'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -9309,7 +9234,6 @@ dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>NaN                   88
 Less than 1 year      73
@@ -9371,7 +9295,6 @@ Name: institute_service, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extract the years of service and convert the type to float</span>
@@ -9390,7 +9313,6 @@ Name: institute_service, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>1.0     159
 3.0      83
@@ -9444,7 +9366,6 @@ Name: institute_service_up, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">categorize_service</span><span class="p">(</span><span class="n">years</span><span class="p">):</span>
@@ -9468,7 +9389,6 @@ Name: institute_service_up, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">combined_updated</span><span class="p">[</span><span class="s1">'service_cat'</span><span class="p">]</span> <span class="o">=</span> <span class="n">combined_updated</span><span class="p">[</span><span class="s1">'institute_service_up'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">categorize_service</span><span class="p">)</span>
@@ -9483,7 +9403,6 @@ Name: institute_service_up, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>New            193
 Expirienced    172
@@ -9499,7 +9418,6 @@ Name: service_cat, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">combined_updated</span><span class="p">[</span><span class="s1">'dissatisfied'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">dropna</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -9513,7 +9431,6 @@ Name: service_cat, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>False    403
 True     240
@@ -9528,7 +9445,6 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Replace missing values with the most frequent value, False</span>
@@ -9543,7 +9459,6 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the percentage of employees who resigned due to dissatisfaction in each category</span>
@@ -9564,13 +9479,11 @@ Name: dissatisfied, dtype: int64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f9f9a980c40&gt;</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
 <img alt="No description has been provided for this image" class="" src="data:image/png;base64,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mxsiIyOVZRqNBpGRkUW+NCcnJwdnz55F7dq1i9dSIiIiemGKPTFRQEAABg8eDHd3d3h4eCA0NBRpaWnw9/cHAAwaNAjW1tYICQkBAMycOROtWrWCg4MD7t+/j88++wzXrl3De++9V7JbQkRERM+s2IGgX79+SE5ORmBgIBISEuDi4oKdO3cqAw3j4uK0Rinfu3cPw4YNQ0JCAqpVqwY3NzccOXIETk5OJbcVRERE9FyKNahQV4o6IKKkcVAhFUXeoDI7OzsYGRnpujlUyh49eqTcvpmDCullVNTvUN7ciOg5Va5cGQC0puqliiNvtkW1Wq3jlhA9H97ciOg5qdVqmJubK9N3GxsbK7ffpfJNo9EgOTkZxsbGqFSJH6fPi72yusW/YKISkHfZ7T/d04PKJz09PdSrV48hkMo8BgKiEqBSqVC7dm3UqlULWVlZum4OlSJ9ff1Cp3smKksYCIhKkFqt5rlkIiqTGGuJiIiIgYCIiIgYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREeMZAsGTJEtjZ2cHQ0BCenp44duxYkep9//33UKlU6NWr17O8LREREb0gxQ4E69evR0BAAIKCgnDy5Ek4Ozuja9euSEpK+sd6sbGxGD9+PLy8vJ65sURERPRiFDsQLFy4EMOGDYO/vz+cnJwQFhYGY2NjhIeHF1onJycHAwYMwIwZM9CgQYPnajARERGVvGIFgszMTJw4cQLe3t5/r0BPD97e3oiKiiq03syZM1GrVi28++67RXqfjIwMPHjwQOtBREREL06xAsHt27eRk5MDS0tLreWWlpZISEgosM6hQ4ewYsUKLFu2rMjvExISAjMzM+VhY2NTnGYSERFRMb3QqwwePnyIgQMHYtmyZahRo0aR602ePBkpKSnK4/r16y+wlURERFSpOIVr1KgBtVqNxMREreWJiYmwsrLKV/7KlSuIjY2Fj4+Pskyj0eS+caVKuHjxIuzt7fPVMzAwgIGBQXGaRkRERM+hWD0E+vr6cHNzQ2RkpLJMo9EgMjISrVu3zle+SZMmOHv2LKKjo5XHm2++iY4dOyI6OpqnAoiIiF4SxeohAICAgAAMHjwY7u7u8PDwQGhoKNLS0uDv7w8AGDRoEKytrRESEgJDQ0M0bdpUq765uTkA5FtOREREulPsQNCvXz8kJycjMDAQCQkJcHFxwc6dO5WBhnFxcdDT4wSIREREZUmxAwEAjB49GqNHjy7wtf379/9j3ZUrVz7LWxIREdELxEN5IiIiYiAgIiIiBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERgEq6bgBRabGb9JOum1AqYj/trusmEFEZxB4CIiIiYiAgIiIiBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiwjMGgiVLlsDOzg6Ghobw9PTEsWPHCi27efNmuLu7w9zcHFWqVIGLiwu+/fbbZ24wERERlbxiB4L169cjICAAQUFBOHnyJJydndG1a1ckJSUVWL569eqYOnUqoqKicObMGfj7+8Pf3x+7du167sYTERFRySh2IFi4cCGGDRsGf39/ODk5ISwsDMbGxggPDy+wfIcOHeDr6wtHR0fY29tjzJgxaN68OQ4dOvTcjSciIqKSUaxAkJmZiRMnTsDb2/vvFejpwdvbG1FRUf9aX0QQGRmJixcvol27doWWy8jIwIMHD7QeRERE9OIUKxDcvn0bOTk5sLS01FpuaWmJhISEQuulpKTAxMQE+vr66N69OxYvXozOnTsXWj4kJARmZmbKw8bGpjjNJCIiomIqlasMqlatiujoaPz++++YM2cOAgICsH///kLLT548GSkpKcrj+vXrpdFMIiKiCqtScQrXqFEDarUaiYmJWssTExNhZWVVaD09PT04ODgAAFxcXHD+/HmEhISgQ4cOBZY3MDCAgYFBcZpGREREz6FYgUBfXx9ubm6IjIxEr169AAAajQaRkZEYPXp0kdej0WiQkZFRvJYSET3BbtJPum5CqYj9tLuum0AVRLECAQAEBARg8ODBcHd3h4eHB0JDQ5GWlgZ/f38AwKBBg2BtbY2QkBAAueMB3N3dYW9vj4yMDOzYsQPffvstli5dWrJbQkRERM+s2IGgX79+SE5ORmBgIBISEuDi4oKdO3cqAw3j4uKgp/f30IS0tDSMGjUKN27cgJGREZo0aYI1a9agX79+JbcVRERE9FyKHQgAYPTo0YWeInh6sODs2bMxe/bsZ3kbIiIiKiW8lwERERExEBAREREDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiICAwERERGBgYCIiIjAQEBERER4xkCwZMkS2NnZwdDQEJ6enjh27FihZZctWwYvLy9Uq1YN1apVg7e39z+WJyIiotJX7ECwfv16BAQEICgoCCdPnoSzszO6du2KpKSkAsvv378ffn5++OWXXxAVFQUbGxt06dIFN2/efO7GExERUckodiBYuHAhhg0bBn9/fzg5OSEsLAzGxsYIDw8vsPzatWsxatQouLi4oEmTJli+fDk0Gg0iIyOfu/FERERUMooVCDIzM3HixAl4e3v/vQI9PXh7eyMqKqpI60hPT0dWVhaqV69eaJmMjAw8ePBA60FEREQvTrECwe3bt5GTkwNLS0ut5ZaWlkhISCjSOiZOnIg6depohYqnhYSEwMzMTHnY2NgUp5lERERUTKV6lcGnn36K77//HhERETA0NCy03OTJk5GSkqI8rl+/XoqtJCIiqngqFadwjRo1oFarkZiYqLU8MTERVlZW/1h3/vz5+PTTT7F37140b978H8saGBjAwMCgOE0jIiKi51CsHgJ9fX24ublpDQjMGyDYunXrQuvNmzcPs2bNws6dO+Hu7v7srSUiIqIXolg9BAAQEBCAwYMHw93dHR4eHggNDUVaWhr8/f0BAIMGDYK1tTVCQkIAAHPnzkVgYCDWrVsHOzs7ZayBiYkJTExMSnBTiIiI6FkVOxD069cPycnJCAwMREJCAlxcXLBz505loGFcXBz09P7ueFi6dCkyMzPRp08frfUEBQUhODj4+VpPREREJaLYgQAARo8ejdGjRxf42v79+7Wex8bGPstbEBERUSnivQyIiIiIgYCIiIgYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiLCMwaCJUuWwM7ODoaGhvD09MSxY8cKLRsTE4PevXvDzs4OKpUKoaGhz9xYIiIiejGKHQjWr1+PgIAABAUF4eTJk3B2dkbXrl2RlJRUYPn09HQ0aNAAn376KaysrJ67wURERFTyih0IFi5ciGHDhsHf3x9OTk4ICwuDsbExwsPDCyzfsmVLfPbZZ+jfvz8MDAyeu8FERERU8ooVCDIzM3HixAl4e3v/vQI9PXh7eyMqKqrEGpWRkYEHDx5oPYiIiOjFKVYguH37NnJycmBpaam13NLSEgkJCSXWqJCQEJiZmSkPGxubEls3ERER5fdSXmUwefJkpKSkKI/r16/ruklERETlWqXiFK5RowbUajUSExO1licmJpbogEEDAwOONyAiIipFxeoh0NfXh5ubGyIjI5VlGo0GkZGRaN26dYk3joiIiEpHsXoIACAgIACDBw+Gu7s7PDw8EBoairS0NPj7+wMABg0aBGtra4SEhADIHYh47tw55eebN28iOjoaJiYmcHBwKMFNISIiomdV7EDQr18/JCcnIzAwEAkJCXBxccHOnTuVgYZxcXHQ0/u74+HWrVtwdXVVns+fPx/z589H+/btsX///uffAiIiInpuxQ4EADB69GiMHj26wNee/pK3s7ODiDzL2xAREVEpeSmvMiAiIqLSxUBAREREDARERETEQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiMBAQERERGAiIiIgIDAREREQEBgIiIiICAwERERGBgYCIiIjAQEBERERgICAiIiIwEBAREREYCIiIiAgMBERERAQGAiIiIgIDAREREYGBgIiIiMBAQERERGAgICIiIjAQEBERERgIiIiICAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBAREREYCAgIiIiPGMgWLJkCezs7GBoaAhPT08cO3bsH8v/8MMPaNKkCQwNDdGsWTPs2LHjmRpLREREL0axA8H69esREBCAoKAgnDx5Es7OzujatSuSkpIKLH/kyBH4+fnh3XffxalTp9CrVy/06tULf/zxx3M3noiIiEpGsQPBwoULMWzYMPj7+8PJyQlhYWEwNjZGeHh4geUXLVqEbt26YcKECXB0dMSsWbPQokULfPnll8/deCIiIioZlYpTODMzEydOnMDkyZOVZXp6evD29kZUVFSBdaKiohAQEKC1rGvXrtiyZUuh75ORkYGMjAzleUpKCgDgwYMHxWnuc9NkpJfq++lKaf9edYX7s3zh/ix/uE9f7PuJyD+WK1YguH37NnJycmBpaam13NLSEhcuXCiwTkJCQoHlExISCn2fkJAQzJgxI99yGxub4jSXisgsVNctoJLE/Vm+cH+WP7rapw8fPoSZmVmhrxcrEJSWyZMna/UqaDQa3L17FxYWFlCpVDps2Yv14MED2NjY4Pr16zA1NdV1c+g5cX+WL9yf5U9F2acigocPH6JOnTr/WK5YgaBGjRpQq9VITEzUWp6YmAgrK6sC61hZWRWrPAAYGBjAwMBAa5m5uXlxmlqmmZqalus/zoqG+7N84f4sfyrCPv2nnoE8xRpUqK+vDzc3N0RGRirLNBoNIiMj0bp16wLrtG7dWqs8AOzZs6fQ8kRERFT6in3KICAgAIMHD4a7uzs8PDwQGhqKtLQ0+Pv7AwAGDRoEa2trhISEAADGjBmD9u3bY8GCBejevTu+//57HD9+HN98803JbgkRERE9s2IHgn79+iE5ORmBgYFISEiAi4sLdu7cqQwcjIuLg57e3x0Pr776KtatW4dp06ZhypQpaNiwIbZs2YKmTZuW3FaUEwYGBggKCsp3uoTKJu7P8oX7s/zhPtWmkn+7DoGIiIjKPd7LgIiIiBgIiIiIiIGAiIiIwEBAT+BwEiKiiouBoIKLiYnB6tWrAaBczwJZ0Tx8+FDXTSCiMualnLqYSs/s2bNx+fJl2Nvbo02bNhARBoMy7oMPPsCtW7cQHh6OatWq6bo5FYpGo9G67Jr/T+Xb0/u7rCs/W0LFotFoAAATJ06EWq1GREQE0tPT+eFVhuWd8unSpQu2bduGI0eO6LhFFY+enh7u3r2LH3/8EQB73cqzJ8NAWlqajltTMhgIKqAnxwq4uLigU6dOOHnyJH7++Wcdtoqel0ajQU5ODnr27IlOnTohJCQEN2/e1HWzyrW8YP2kSZMmYfHixUhPrxi38q1ocnJyAOSGv8TERLzzzjvo2bMnFi1ahGvXrgEo+O+iLGAgqIBUKhX09PQQFRWFUaNGITU1FZcvX8bWrVuRlJQEgAMMyxoRgVqthlqtRnJyMmbMmIGoqCj8/PPPyMzM1HXzyq28I8Rjx47h1q1bAIDevXvjyJEjyv8Q/5fKF7VaDQC4evUq3nvvPTx69AgODg746quvMHHiRAAos6cRymar6bmtXbsWXbt2hZGREWxsbJQppdnVWTapVCrcv38fvr6+aNq0KVavXg0RwVdffYUrV67ounnlSt4RoohARLBkyRK0atUK8+bNQ3p6Orp27Qpra2ssW7ZMxy2lFyE5ORn9+/eHr68v6tWrh02bNiEsLAxBQUE4ceKEcp+esthLwEBQzj39R5l3tLJv3z689tprWLBgAcaPH4/IyEi4u7tjy5YtiImJ0SpLZcM333yDCxcu4NixY5g2bRq2bduGP//8E6tWrWL3dQlSq9VIS0uDSqWCSqVCjRo14OjoiAMHDmDMmDEAcsdxnD17Fo8ePWK4LqNERAl/T6pSpQoaNGiAuLg42NvbK8u9vb3RrVs3LFy4EKmpqdDT0ytzn6EMBOWUiGgNenn06BGA3CPJBw8e4MKFC3B1dQUAZGdnAwDGjRuHEydOYOvWrUpZerloNJp8IU+j0SArKws//vgjOnfuDFtbW1hbW6NHjx6YM2cOlixZglOnTumoxWVf3u8778M9JiYGbdu2xdy5cwEAjo6OMDIywqJFi7Bjxw6sWLECIoI7d+7g3r17Oms3PbucnByoVCqo1Wqkp6fj8OHDuHfvHjIzM2FsbIy+ffvC0dERu3btUurUqlULffr0gZGREWbPng2g7B1UMRCUU3njBM6dO4e+ffvi7bffxvjx43Hp0iWYmpqibt262Lt3r1IWALp37w4LCwts3boV+/btA1D2/qDLs7yAp6enh4sXL2LXrl2Ij49HRkYGKleuDAMDA2IrUtkAACAASURBVNy5cwfA3yFvzJgxsLCwwLJly5CcnKzL5pc5T4fqrKwsAEDdunUxaNAgBAYGYtOmTWjevDkMDQ1x/vx5bNq0CYcPH0ZSUhJ27NiBBw8eACib3ccVWd44gZCQENjb2+P9999Hhw4dsGDBAgCAq6srBgwYgLi4OGzcuFGp17JlS/Tr1w+hoaE4d+5cmRtLULZaS8WybNkyvPrqq7CwsEDr1q1x9epVdOvWDXFxcRg7diyOHTuGiIgI5Y//xo0bUKvViI2NxY4dO5CZmclegpeInp4eUlNT4efnh7Zt22Ly5Ml4/fXXERQUBADo2bMnDh8+jJiYGFSqVAkajQYPHz5E9erVsWHDBuzatYsBr4jy5g/Q09PD6dOn8c4772D48OFYtGgRMjMzMXbsWLz//vuYN28eVqxYgcmTJ2Pr1q1wd3fHgAEDkJ2djezsbCxfvhxA2R1kVlE8fXogNTUV/v7+2LBhA7766ivs27cPw4cPx9KlSxEREQEg9xSBm5sbFi1apARwY2NjdOnSBR999BHMzMx0si3PRajMy8nJ0Xqu0WgkMzNTevXqJV9++aWyfMmSJaJSqeS7776TrKws+fDDD6VGjRoyZ84ciY6OlnHjxsm4cePkhx9+kNTU1NLeDHpKQft10qRJ4u3tLefPnxeNRiObNm0SlUolO3bskIsXL0rnzp2lS5cuSp0LFy7I6NGjxdPTUxYuXFjam1CmpKeny86dO0VEJDMzU0RE5s6dK8bGxjJixAgZM2aMdOjQQTw9PUVE5NGjRxIYGCiOjo7i7+8vI0eOlLNnz4qIyJkzZ8TGxka+++473WwMFdmT/2fnz5+XVatWiYjIRx99JGfOnBERkbi4OOnQoYPo6elJw4YNlfLr168XNzc3mTNnTuk2+gVhICiDoqKi5OLFiyKS/0sjT0JCgtSqVUuSk5Pl0KFD0qhRI2nYsKGsWbNGq9yYMWPE2dlZateuLY6OjhITE/PC20//LCcnR7Kzs5XneT8nJSVJnTp15NChQyIisnXrVmW/Hjp0SDQajURGRkqtWrXklVdekd69e4uZmZkEBwcrX3BUsJycHJk/f76oVCq5d++eiIgkJiZKp06dZNOmTUq5SZMmiUqlkj179oiIyJ07d2Tu3LmiUqnEzMxM2TciIllZWaW7EfTMNBqNrF+/XiwsLGTSpEkiIhIfHy8iIp9++qlYWlrKkCFD5PvvvxdLS0uZMWOGiOT+jQwdOlRatGghDx480Fn7SwoDQRlkaGgo77zzjqSlpYmIyJUrV2TKlCkSHh4uycnJIiJy+fJl6dChgzg6Okq1atUkKChI+YO9f/++HDlyRERyj4RSUlIkOjpaNxtDWjQajfLzuXPnZMSIEbJ9+3ZJT0+XuLg46d69u3z//ffSuXNnqVmzpsybN08ePXokIiKPHz8WEZE//vhDQkND5e2335aNGzdqrbuwAEm5/0cuLi7y9ttvi4jIyZMnpU6dOpKZmSm7d+8WBwcHcXR0lPXr1+erO3LkSFGpVDJ//vzSbjY9p127dsngwYNlwIAB8u2332q9Fh0dLR4eHsqB1J07d8Te3l6qV68ucXFxIpL7f1oewoAIA0GZknfEsX79ejEyMpK9e/fKunXrpHr16uLh4SF16tQRV1dXuXnzpjx69Ej69esnDRs2lP3794vI370Jq1atEl9fX+ULhF4u2dnZMm7cODE2NpZ+/fpJRESEpKWlyZ07d8TBwUEqVaok/v7+kpSUpNQ5c+aMTJs2rdB9yiCgLTY2VsLCwuTcuXPKsuzsbFm7dq2oVCo5ceKEnDlzRl599VVxc3MTCwsLmT17tnIq7e7du0p3ct7z33//vdS3g4pOo9Fo9bzlOXr0qBgaGoq5ublcuHBBRP7ulVuxYoUYGxsr/1cnTpyQ1157TerUqSNTpkwpvcaXEgaCMiInJ0fr6LFly5bSs2dPCQgIkK1bt4qIyK1bt6RmzZoyevRoERGJiIgQFxcX6d+/v5w+fVouXbok06ZNk3r16sknn3zCbuSX1N69e8XR0VEJck/u95CQEKlWrZrs27dPWZacnCzDhw+XIUOGKN2ceRgE8rt79644ODiISqUSW1tb2bZtm9y5c0dEck/LdOvWTdq2bSsiIi1atJBmzZrJqVOnROTv3+fSpUtl5MiR/P2WEU/up4SEBNm9e7ckJiYqvWsff/yx1KxZU7Zv365Vb8+ePWJvby8fffSRbN++Xdq3by8TJ06Umzdvlmr7SwsDwUvu6VR7//59EcntylKpVGJlZSVXrlxRXl++fLlYWFjI7t27RSQ3FDg6OoqDg4M0bNhQnJyc5JdffinVbaD8Cjpayfvi79u3r3Tu3FlE/j5SefJ8dNu2bcXJyUl69eolkydPFisrK2nbtq2cP3++lFpf9n3yySfi4eEhTZo0ES8vL2nbtq0yLufAgQOiVqvl559/lu+++04aNGggU6dOlatXr0psbKx8/PHHYmdnJ2FhYQwEZUxAQIDUqFFDnJ2dpVmzZjJq1CgR+ftUwNixY5VwKJIbHkNDQ8XR0VHq1KkjH374oa6aXioYCF4yGRkZys9PHhkmJCTIiBEjZNq0acof7KhRo8TCwkL++OMPrXV4enrKm2++Kbdu3RIRkdu3b8u1a9eUcQOkW0/u11u3bsnRo0eVoCci4ufnJ127di20flJSkoSHh8vw4cOlT58+snr16gLXTYW7d++e+Pr6yoABAyQ6Olrat28vDRs2lBkzZkhcXJxMmTJFateuLSIiX3zxhVhaWoqTk5PUr19fmjZtKocPH9bxFtC/eTqsLVy4UFq0aCG//vqrPH78WA4ePCgqlUq++eYbERH5/PPPxcHBQelxfdKNGzfk7t27pdJuXWIgeIksWbJEOnbsqIxyzvPZZ5+JsbGx+Pj4yHfffSd//vmniIikpqaKkZGRzJgxQ+vc8eHDh8XU1FSWLFnCkc4vsalTp4q+vr40bNhQ3N3dlfPZISEh4uzsrHzp5PUSxMXFyZEjRwo8D/pkOSqa77//Xtzc3JRu4tWrV0vdunWldevWMm/ePKlWrZp89tlnIpI7SPf06dPsXXvJ/fHHH7J48WLlwOry5csikhsAGzVqJBERESKS+xnZpk0bqVWrlmzbtk2p36pVKxk4cKD89ddfIlLxTrkxELwE8o4OL1++LJGRkVqvHT9+XJo2bSo//vhjgXXnzJkj5ubm+QY09ejRQyZMmMBA8BI6ePCgrF69Wvr16ye//PKLHDt2TBo3biy+vr5y8+ZNOXv2rHTr1k2ZTyArK0seP34so0aNkkmTJuWbI6KifWiVlMzMTPnPf/4j3bt3lxs3boiIyOnTp+XDDz+U2rVri0qlEpVKpTV4k15u8+bNE0tLS/n222/ljTfeEJVKJQkJCZKZmSndu3eXVatWyZAhQ8TU1FQCAgKU3ta8sQRbtmwRtVqd72qDioKBQIcyMjKkf//+MmXKFK3LVi5evKhc0rJ582axsbGRuLg4uXv3ruzevVt++OEHrfkE7OzsZOjQoVrdzhwwqHtPXuaX15V/+/ZtqVKlilhYWMjcuXOVsgcOHJDGjRsrl63t2LFDHBwcxNraWnx8fMTW1laaNWsmJ06cKP0NKceOHj0qrVu3llmzZmkt/+mnn6Rdu3bSunVruXfvHk/FvOSe3D/16tUTlUolb7zxhnLaNDk5WTp06CCGhobStWtXpedAJPdAbOLEicr/6urVqytsbxsDgY6NGDFCXFxclBHl2dnZoqenp1wpcPDgQenUqZNYW1uLo6OjdO/eXWxsbMTCwkLGjh0rIrkDB1UqlezatUtn20HanvxAyTv6yPvQ+vLLL0VfX18WLVqkVee9996TNm3aSFRUlIjkji/4+uuvZcKECbJy5cpSannFotFoZMyYMdKxY0c5ffq0skxEezwPvXxycnLy9Y5t2bJFXFxcpGbNmrJu3ToR+Xt/Lly4UOzs7GTt2rVK+fT0dJk2bZr4+Pgop2IrMgYCHcn7Q05NTZUmTZrIBx98oHRbLly4UOs0wOXLl+Wzzz6TyMhIOXr0qKSmpkpwcLDUrl1bGTuwePFiziugYwV13U+fPl1ee+01GThwoHz++efKcjc3N/Hz85Nr164py65cuSLOzs4yYcIEZYKpp1XUI5cXKS4uTtq2bSsDBw7UdVOoCFJTU7V6BK5cuSJ79+7VGnvl6+srnTp10ppwLTMzU3r27CkODg7St29fmTlzpjRp0kSaNGkiv/76a6luw8uKgaAUaTQa5SHy96VkX3/9tdSvX182bNiglG3YsKH85z//KXRk69tvvy0TJkxgV6aOnT17VmrXrp1vIOiNGzekZcuW0qxZMwkPD5fp06eLlZWVBAcHi0juqaC6devmO/KfMmWK1K9fX3777Tet5dzPL9b8+fNl0aJF/D2/5L744gtp06aNiIg8fPhQBg4cKJaWltK0aVNxcXGR6dOni0juWBBra2uZM2eOMqOrSO7VWitXrpQhQ4aIj4+PMmiUcjEQvGA3btyQFStWyMOHD7WWPz3Yz8vLS3r37q1cS757925RqVSydetWycnJkfT0dPn5559l2bJl0rx5c2ncuLEcO3as1LaDChYfH5+va1JElEFNefs5JiZGqlevLp6enkp48PHxkW7dumldNvr48WM5fvx4KW4BiTBwlRWhoaHi4OAgd+/elalTp0rbtm0lJiZGUlNT5YcfflBu9CUiMm7cOHFzc1OuDHn8+LGkp6cr62JvW368J+cLFhYWhk8//RS7du0CAGRkZGDcuHEYPnw4Vq9ejdjYWADA9OnT8dtvv+GXX35BZmYmOnfujC5duiAkJAR37tzBo0ePsG/fPixfvhxvvfUWLly4gJYtW+pwy0ij0cDKygp+fn5ITU1FXFyc8tqJEydgY2ODSpUqYeDAgfD09MSAAQOwZcsWmJubAwBmzZqF6OhobNiwAY8fPwYAGBgYwM3NTSfbU5HxNt9lg5GREQDgwoULWL58ORYvXgwnJyfs378fM2fORP369VG1alUAQHBwMLKysvDJJ59g+vTpMDIywrx585R15d32nZ6g60RSXuWdT05OThZvb28ZNGiQHDhwQLy8vMTDw0P69+8vNjY20qZNG+UKg/79+4uXl5cyqOzatWtSqVIlCQkJEZHco9Enu7/o5RAfHy/vvPOO1K9fX0Ry931AQIC4u7uLmZmZdOvWTevqgP379yuXOw0fPlzmzZvHI1SiJyQmJirTcD85ePDatWtKL0CfPn3ku+++Ex8fH7GwsNA6PZDXE7Bz507573//K61bt9aawIsKxkDwAuX9ES9fvlwZtDR8+HDlksCDBw/KK6+8Iv379xcRkUuXLkm9evUkODhYGTswdOhQ8fX15YhnHXpy3vInuxn37NkjzZs3l+XLl8uvv/4qJiYmyofOpk2bpHr16vmmOr1586b069dPGenMIECkLT4+Xpo0aSKtWrWSlJQUZblGo5HLly+Lp6enjBo1Sjw9PcXQ0FD8/Py07uFx/PhxCQwMVJ7zEuyi4ymDEpaTk6P8rKeX++t99913YWVlhTVr1sDGxgaVK1cGALz66qsIDAzEpk2bcPr0aTg4OGDIkCFYs2YNDhw4AABYsWIFNm/eDH19/dLfGMKwYcPw8ccfIyUlBUBuN+PVq1fx22+/Yfny5ejbty8GDBiAli1bwt/fHx9//DEA4K233oKnpyeOHTuGL7/8EufOncNPP/2EN954A7dv3853ukej0ZT6thG9jKysrPDNN98gOTkZb775JrZs2QIg97ROvXr1cPfuXTRr1gze3t6oV68ehgwZAisrKwDA3bt38b///Q9XrlxBUlISACift1QEuk4k5cXTA1SuXr2q1b1/4MABsbW1lYEDB2odFcbGxoqHh4csXLhQRHLT7JMzE/IIUjfyfu8xMTH57nXesWNHUalU0qNHD61BSn/++adYWVnJxIkTlbrTpk2TKlWqiIeHh9SqVUumTp1aehtBVIZdvHhRevbsKdWqVZONGzcqvQX9+/eXnj17yuPHj8Xb21vq168v/v7+Mm3aNKlbt660atUq3/1dqGgYCErY8uXLxc7OTlq2bCmurq5ac59/8MEH0rZtW/npp5+UZQkJCVKjRg2tyTLyJrIh3csLBtu3b1fGAcTFxYm+vr68+eab+W5GtWjRItHX15fr168ry2/evCmnT5/WmkmSI5yJ/t3t27flgw8+EBsbG2UitunTp0u7du3k0aNHEh8fLwsXLpShQ4dK9+7dZfny5TpucdnGQPCMnpyWNicnR+7fvy9Dhw4VBwcHWbp0qfzxxx8ycOBA6dixo3LzjJiYGHF3d5dWrVrJsWPHJDk5WZYtWyYNGjSQo0eP6nJz6P89uV/z3LhxQwwMDGTKlCnKJYMBAQFiaWmpzG6XJykpSTw9PeX1118vcP3Z2dns9SEqprlz50qNGjUkICBAJkyYII0aNeK4qheAgaCYHj58KJ9//rlcuHBBRHITbN7y//73v8othrOzs8XHx0eMjY2ld+/eyiDBhQsXirGxsTg4OIivr69YWFjI0qVLdbMxpOXJo/anZ32cOnWqODs7a00PbWZmJuPHj8935cf69evF2tqaN8Uhek554Vmj0cj+/fvF3t5eGjduLCqVSrkai0oOA0ExHT9+XPT19SU0NFQmTJggKpVKdu7cKSKi3JBoyZIlUrNmTenVq5dMmzZNGjVqJEuWLBERkZSUFGnRooX4+fnJvn37eDfCl8DTPQJjx46Vrl27yrhx45QPncePH4uTk5O8//77ynTDS5cuFWNjYzl06JBWfY5qJipZef+jhw4dkt69e4uTk5PExsbquFXlDwNBEeTk5Gh1JXfr1k0qVaokjRo1koMHD2qVPXr0qLRo0UKZkvbRo0dSq1Ytad++vTLQZe/evVqXydDL4dKlSzJw4EBxc3OToKAgadKkiTRu3Fg2b94sIrnjQ2xtbZWZCUVEmjdvLp06dVJ6ip7EsEdU8p4cyEsli5cdPkVEtJ5nZ2dDT08PKpUK6enpuHPnDlJSUmBubo5evXrBw8NDKQcAv/32G+7evYvXX38dAHD06FHUrFkT8fHx2L59OwCgU6dOymUypBt5l4eKCB4/foyRI0dizJgxuH//Pn766ScEBwdj9+7daNu2LT744AMAuZeP1q9fHxs2bMC5c+cAAAsWLMD9+/cLnOmuUqVKpbdBRBVE3myFVPIYCP5f3nXgKpVKKxRUqlQJqamp+O9//4vhw4dDo9HgyJEjCA4ORkREhDIlcd6Hv0qlUuYciImJQWhoKAYMGIDVq1dj4sSJpb9hVCC1Wo27d+/i2rVrMDQ0RM2aNXHw4EFkZ2fD0tISAGBjY4OAgAAAQEhICIDc6YaPHDmCrVu34vHjx/D29sbx48dRvXp1nW0LEVFJqPCBIO/LP28SoZCQEIwZM0Z5ffXq1bC2tsbFixfRrVs33Lx5EwDwwQcfwNzcHBs2bNCaw75Pnz5o2rQpvvjiC3h5ecHAwABjx46Fp6dnKW4VPd3Tk5WVpfX8wYMH6NKlC1auXAkAmDBhAlq1aoWkpCT89ddfSjl7e3t07twZFy5cQFZWFtq2bYvXX38dpqamMDQ0VN4nr4eIiKjM0uX5Cl17cjDZli1bpE6dOmJnZyf79u0TEZFbt25JmzZt5Ouvvy6w/ubNm8XGxkb+97//KcvyRpafPn1arly58uIaTwV6+rLB3bt3S2JiYr5yiYmJYmZmpnWb4XXr1omzs7PMmzdPq2zr1q1l9OjRyvOnByESEZUHFfokp56eHmJjY/HOO+/gjz/+wNSpUzFhwgTl9ZSUFFy4cAG2trbIyMjArl278PDhQyQkJGDYsGHw9fXFhg0bsGjRIvz555/YvHkzTExMcPz4cTRv3lyHW1Yx5eTkQK1WQ6VSITo6GoMGDUJKSgq2bNkCtVqN/v37w9fXF2+++SbUajXq1q2LjIwMpb6fnx+2bduGL7/8EiYmJujUqRPOnTuHGzduYOTIkUo5PT09pWeAd8kjovJCJfJU32oFcu/ePbRv3x737t3DxYsXYWxsrPX63r17sXHjRmzYsAEmJiZwdnZGbGws7t27B0dHR+zZswexsbEIDw9HZGQkOnXqhJkzZ+poawgAUlNT8e6772LTpk0YOXIkQkJCYGJigtu3b2PWrFk4evQoEhMT0axZM5w+fRq///47atWqpYSJ3377Df3790daWhq8vLxw5swZDB48GNOnT9f1phERvVg67qHQudmzZ0uHDh2U0wQiIosWLZLatWtLWFiY3L9/X8LDw+XgwYNy6tQpycjIkN27d4tKpVLmHdBoNJw16yWwY8cOMTExES8vL2XfFCQ8PFy6dOkiKpVKhg0bpkwmlScgIEC8vb21TgWJ8FQBEZVv6uDg4GBdhxJdat68ObZs2YIbN27AyMgIvr6+OHz4MIKCgjB06FAYGRnB1dUVtra2sLKyglqtxvLly1GnTh34+fmhcuXKUKlUUKvVut6UCu/69es4fPgw/P394e3trSzftm0bPv/8c9jb26NmzZpwdXVFTk4OLly4gNTUVISFhSE6Ohr379+Hq6srGjZsiPXr1yM7OxsdOnSAvr4+srOzuY+JqFyr8FcZmJubY+jQodi7dy9ef/119O/fH0ePHsXQoUOhVquh0WiQnZ2NvXv3IiwsDK+++ipWrVqFwYMH5zvFQLrVsWNHdOzYEREREbh37x4SExPRuXNnvPPOO2jUqBEaNmyolD127BhcXV1x+PBhbNiwAZUqVcLMmTNx7do1NGjQAP/5z39w5MgRrF27FgDnFCCi8q/CBwIA8PX1hZubG7y8vDBixAhUr15duYxMT08PycnJuHTpErZu3QovLy/cunULb7zxho5bTU9TqVQICAhAZmYm2rVrh4YNG8LGxgZnz55FQEAAKlWqpOzXypUrK5eaenl5YeXKlYiNjYWtrS0AYNiwYbCxsUHt2rV1tj1ERKWJgQC5Xw7jx4/H48eP8dVXXwHIPSIUEcyZMwfNmzdH1apVsWnTJsydO1fHraV/Ym9vjx49euDOnTuYNWsWwsPDYWtrq1wVkHekf+rUKVSrVi1f/ezsbOTk5KBKlSqIiIjAm2++WartJyLSFfaD/r+WLVvCw8MD+/btQ9++fXH9+nW8++67yMnJwcqVK9G9e3ddN5GK6P3338e+fftw6tQpZGVlKeM8AGDNmjWIjIyEj48Punbtmq/uk6cGKleuXGptJiLSNfYQ/D+VSoVx48bh8ePHcHZ2Ro8ePTBy5Ehcv36dYaCMMTMzw9ChQ3H+/Hls2LABQO6YAU9PT4wYMQLt2rXDhAkT0Lx583wzGhIRVVQVeh6CgixatAgJCQkICgqCoaGhrptDzygrKwtDhgxBcnIyjI2NsX37dgwfPlw5JQTkTm/MiYWIiHIxEDyFXxLlR1RUFHr37o2mTZsiLCwMDRo0AJA7ToBXDRARaWMgoHJLRHD16lUlCOTk5Ci3siYiIm0MBFQh5E1NTEREBWMgICIiIl5lQERERAwEREREBAYCIiIiAgMBERERgYGAiIiIwEBARP8iNjYWKpUK0dHRum4KEb1ADARE9I9sbGwQHx+Ppk2b6ropRWJnZ4fQ0FBdN4OozGEgIKrAsrKy/rWMWq2GlZUVp3smKucYCIjKmI0bN6JZs2YwMjKChYUFvL29kZaWBgBYvnw5HB0dYWhoiCZNmmjdzCmv63/9+vVo3749DA0NsXTpUhgZGeHnn3/Weo+IiAhUrVoV6enpBZ4yiImJQY8ePWBqaoqqVavCy8sLV65cUV7/p3b8mxs3bsDPzw/Vq1dHlSpV4O7ujqNHjwIArly5gp49e8LS0hImJiZo2bIl9u7dq9Tt0KEDrl27hrFjx0KlUnGaaqJiYOQnKkPi4+Ph5+eHefPmwdfXFw8fPsSvv/4KEcHatWsRGBiIL7/8Eq6urjh16hSGDRuGKlWqYPDgwco6Jk2ahAULFsDV1RWGhob49ddfsW7dOrz++utKmbVr16JXr14wNjbO14abN2+iXbt26NChA/bt2wdTU1McPnwY2dnZSt2itKMgqampaN++PaytrbFt2zZYWVnh5MmT0Gg0yutvvPEG5syZAwMDA6xevRo+Pj64ePEi6tWrh82bN8PZ2RnDhw/HsGHDSuJXTlRxCBGVGSdOnBAAEhsbm+81e3t7WbdundayWbNmSevWrUVE5OrVqwJAQkNDtcpERESIiYmJpKWliYhISkqKGBoays8//6xV79SpUyIiMnnyZKlfv75kZmYW2MZ/a8c/+frrr6Vq1apy586dfy2b55VXXpHFixcrz21tbeXzzz8vcn0iysUeAqIyxNnZGZ06dUKzZs3QtWtXdOnSBX369IG+vj6uXLmCd999V+vIODs7G2ZmZlrrcHd313r+xhtvoHLlyti2bRv69++PTZs2wdTUFN7e3gW2ITo6Gl5eXqhcuXK+19LS0orcjsLW7erqiurVqxf4empqKoKDg/HTTz8hPj4e2dnZePToEeLi4v513UT0zxgIiMoQtVqNPXv24MiRI9i9ezcWL16MqVOn4scffwQALFu2DJ6envnqPKlKlSpaz/X19dGnTx+sW7cO/fv3x7p169CvX79CBxEaGRkV2r7U1NQit6O46waA8ePHY8+ePZg/fz4cHBxgZGSEPn36IDMz81/XTUT/jIGAqIxRqVRo06YN2rRpg8DAQNja2uLw4cOoU6cO/vrrLwwYMKDY6xwwYAA6d+6MmJgY7Nu3D7Nnzy60bPPmzbFq1SpkZWXl6yWwtLR8rnY0b94cy5cvx927dwvsJTh8+DCGDBkC3/9r5/5dWofCMI4/d2lJsEKHQqAU7FDBRRxcjXTRVXHpj3+h4OYouLRbB3F3kI7NH1EooZChRRDaUikFJyVDd3kd7lXstaCXC5XL/X4gS5KT/WZTEAAAAahJREFU807hCefNOT6W9DOATKfThXsSiYSen5//eG7gf8dfBsA/pNfrqV6vK4oizWYzBUGgx8dHbW1t6eLiQo1GQ5eXlxqNRrq9vdX19bWazeanz/V9X57nqVqtKp/Pf/i6f69Wq2k+n6tUKimKIo3HY93c3Gg4HErSX9VRLpfleZ6Ojo7U7XZ1f3+vdrutMAwlSYVCQUEQqN/vazAYqFKpvDUcvtrY2FCn09HDw4Oenp4+nRPAL9/dxADg6+7u7uzw8NAymYwlk0nb3NxcaKhrtVq2s7NjiUTC0um0+b5vQRCY2cfmwN+dnZ2ZJDs/P184v2zcYDCwg4MDc13XUqmU7e3t2WQy+VIdn5lOp3ZycmLr6+vmuq7t7u5ar9d7q6VYLJrjOJbL5ezq6sr29/ft9PT0bXwYhra9vW3JZNJ4xQFf98PM7HsjCQAA+G4sGQAAAAIBgNWp1+taW1tberzfGAnA6rFkAGBl4jhWHMdLrzmOo2w2u+KKALwiEAAAAJYMAAAAgQAAAIhAAAAARCAAAAAiEAAAABEIAACACAQAAEAEAgAAIOkFkHAB8tp1ueQAAAAASUVORK5CYII=
 "/>
@@ -9583,8 +9496,7 @@ Name: dissatisfied, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Graphed the Ratio of dissatisfied per their category of employment duration</p>
 </div>
 </div>
