@@ -16,6 +16,10 @@ function ProjectView() {
         );
     }
 
+    // Construct the correct URL with base path
+    const baseUrl = import.meta.env.BASE_URL;
+    const htmlUrl = `${baseUrl}${project.htmlFile.startsWith('/') ? project.htmlFile.slice(1) : project.htmlFile}`;
+
     return (
         <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
             <nav style={{ padding: '1rem 0', borderBottom: '1px solid var(--glass-border)', background: 'var(--bg-secondary)' }}>
@@ -29,7 +33,7 @@ function ProjectView() {
 
             <main style={{ flex: 1, background: '#fff' }}>
                 <iframe
-                    src={project.htmlFile}
+                    src={htmlUrl}
                     title={project.title}
                     style={{
                         width: '100%',
