@@ -3,8 +3,11 @@ import Home from './pages/Home';
 import ProjectView from './pages/ProjectView';
 
 function App() {
+  // Use basename for GitHub Pages, but allow for local development
+  const basename = import.meta.env.BASE_URL;
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project/:id" element={<ProjectView />} />
