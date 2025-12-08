@@ -7,20 +7,6 @@
     "originalFile": "Projects/Predicting Car Prices/Predicting Car Prices.ipynb"
   },
   {
-    "id": "creating_a_kaggle_workflow_creating_a_kaggle_workflow",
-    "title": "Creating a Kaggle Workflow",
-    "description": "",
-    "htmlFile": "/projects/creating_a_kaggle_workflow_creating_a_kaggle_workflow.html",
-    "originalFile": "Projects/Creating a Kaggle Workflow/Creating a Kaggle Workflow.ipynb"
-  },
-  {
-    "id": "predicting_house_sale_prices_predicting_house_sale_prices",
-    "title": "Predicting House Sale Prices",
-    "description": "",
-    "htmlFile": "/projects/predicting_house_sale_prices_predicting_house_sale_prices.html",
-    "originalFile": "Projects/Predicting House Sale Prices/Predicting House Sale Prices.ipynb"
-  },
-  {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(feature_prep)",
     "title": "Lending_Club_Predictions - feature_prep",
     "description": "",
@@ -49,13 +35,6 @@
     "originalFile": "Projects/Analyzing NYC High School Data/Schools.ipynb"
   },
   {
-    "id": "analyzing_cia_factbook_data_using_sql_analyzing_cia_factbook_data_using_sql",
-    "title": "Analyzing CIA Factbook Data Using SQL",
-    "description": "",
-    "htmlFile": "/projects/analyzing_cia_factbook_data_using_sql_analyzing_cia_factbook_data_using_sql.html",
-    "originalFile": "Projects/Analyzing CIA Factbook Data Using SQL/Analyzing CIA Factbook Data Using SQL.ipynb"
-  },
-  {
     "id": "star_wars_survey_star_wars_survey",
     "title": "Star Wars Survey",
     "description": "",
@@ -75,13 +54,6 @@
     "description": "",
     "htmlFile": "/projects/finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94.html",
     "originalFile": "Projects/Finding Heavy Traffic Indicators on I-94/Finding Heavy Traffic Indicators on I-94.ipynb"
-  },
-  {
-    "id": "answering_business_questions_using_sql_answering_business_questions_using_sql",
-    "title": "Answering Business Questions Using SQL",
-    "description": "",
-    "htmlFile": "/projects/answering_business_questions_using_sql_answering_business_questions_using_sql.html",
-    "originalFile": "Projects/Answering Business Questions Using SQL/Answering Business Questions Using SQL.ipynb"
   },
   {
     "id": "clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys",

@@ -23,13 +23,22 @@ def convert_notebooks():
     OUTPUT_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     projects_metadata = []
+
+    # old or unfinished projects to skip
+    notebook_blacklist = {
+        "Clean and Analyze Employee Exit Surveys - Draft.ipynb",
+        "Creating a Kaggle Workflow.ipynb",
+        "Predicting House Sale Prices.ipynb",
+        "Analyzing CIA Factbook Data Using SQL.ipynb",
+        "Answering Business Questions Using SQL.ipynb"
+    }
     
     # Walk through the projects directory
     for root, dirs, files in os.walk(PROJECTS_DIR):
         for file in files:
             if file.endswith(".ipynb") and not ".ipynb_checkpoints" in root:
-                # Skip the draft notebook
-                if file == "Clean and Analyze Employee Exit Surveys - Draft.ipynb":
+                # Skip blacklisted notebooks
+                if file in notebook_blacklist:
                     continue
 
                 notebook_path = Path(root) / file
