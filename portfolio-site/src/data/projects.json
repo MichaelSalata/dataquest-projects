@@ -1,5 +1,26 @@
 [
   {
+    "id": "finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94",
+    "title": "Finding Heavy Traffic Indicators on I-94",
+    "description": "",
+    "htmlFile": "/projects/finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94.html",
+    "originalFile": "Projects/Finding Heavy Traffic Indicators on I-94/Finding Heavy Traffic Indicators on I-94.ipynb"
+  },
+  {
+    "id": "clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys",
+    "title": "Clean and Analyze Employee Exit Surveys",
+    "description": "",
+    "htmlFile": "/projects/clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys.html",
+    "originalFile": "Projects/Clean and Analyze Employee Exit Surveys/Clean and Analyze Employee Exit Surveys.ipynb"
+  },
+  {
+    "id": "analyzing_nyc_high_school_data_schools",
+    "title": "Analyzing NYC High School Data",
+    "description": "",
+    "htmlFile": "/projects/analyzing_nyc_high_school_data_schools.html",
+    "originalFile": "Projects/Analyzing NYC High School Data/Schools.ipynb"
+  },
+  {
     "id": "predicting_car_prices_predicting_car_prices",
     "title": "Predicting Car Prices",
     "description": "",
@@ -8,31 +29,24 @@
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(feature_prep)",
-    "title": "Lending_Club_Predictions - feature_prep",
+    "title": "Lending Club Predictions - feature prep",
     "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(feature_prep).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(feature_prep).ipynb"
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(model_training)",
-    "title": "Lending_Club_Predictions - model_training",
+    "title": "Lending Club Predictions - model training",
     "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(model_training).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(model_training).ipynb"
   },
   {
     "id": "lending_club_predictions_lending_club_predicting_loan_result_(data_cleaning)",
-    "title": "Lending_Club_Predictions - Cleaning",
+    "title": "Lending Club Predictions - Cleaning",
     "description": "",
     "htmlFile": "/projects/lending_club_predictions_lending_club_predicting_loan_result_(data_cleaning).html",
     "originalFile": "Projects/Lending Club Predictions/Lending_Club_Predicting_Loan_Result_(Data_Cleaning).ipynb"
-  },
-  {
-    "id": "analyzing_nyc_high_school_data_schools",
-    "title": "Analyzing NYC High School Data",
-    "description": "",
-    "htmlFile": "/projects/analyzing_nyc_high_school_data_schools.html",
-    "originalFile": "Projects/Analyzing NYC High School Data/Schools.ipynb"
   },
   {
     "id": "star_wars_survey_star_wars_survey",
@@ -47,19 +61,5 @@
     "description": "",
     "htmlFile": "/projects/exploring_ebay_car_sales_data_exploring_ebay_car_sales_data.html",
     "originalFile": "Projects/Exploring eBay Car Sales Data/Exploring eBay Car Sales Data.ipynb"
-  },
-  {
-    "id": "finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94",
-    "title": "Finding Heavy Traffic Indicators on I-94",
-    "description": "",
-    "htmlFile": "/projects/finding_heavy_traffic_indicators_on_i_94_finding_heavy_traffic_indicators_on_i_94.html",
-    "originalFile": "Projects/Finding Heavy Traffic Indicators on I-94/Finding Heavy Traffic Indicators on I-94.ipynb"
-  },
-  {
-    "id": "clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys",
-    "title": "Clean and Analyze Employee Exit Surveys",
-    "description": "",
-    "htmlFile": "/projects/clean_and_analyze_employee_exit_surveys_clean_and_analyze_employee_exit_surveys.html",
-    "originalFile": "Projects/Clean and Analyze Employee Exit Surveys/Clean and Analyze Employee Exit Surveys.ipynb"
   }
 ]

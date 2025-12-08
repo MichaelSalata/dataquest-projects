@@ -94,6 +94,16 @@ def convert_notebooks():
                     print(f"Failed to convert {notebook_path}: {e}")
                     print(e.stderr.decode())
 
+    # sort site cards
+    project_cards_first = [
+        "Finding Heavy Traffic Indicators on I-94",
+        "Clean and Analyze Employee Exit Surveys",
+        "Analyzing NYC High School Data",
+    ]
+
+    projects_metadata.sort(key=lambda x: project_cards_first.index(x["title"]) 
+                                        if x["title"] in project_cards_first else len(project_cards_first))
+
     # Write metadata to JSON
     with open(OUTPUT_JSON_FILE, "w") as f:
         json.dump(projects_metadata, f, indent=2)
