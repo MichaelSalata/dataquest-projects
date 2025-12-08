@@ -74,11 +74,11 @@ def convert_notebooks():
                     # Special handling for Lending Club Predictions
                     if "Lending Club Predictions" in project_name:
                         if "model_training" in notebook_path.name:
-                            title = "Lending_Club_Predictions - model_training"
+                            title = "Lending Club Predictions - model training"
                         elif "feature_prep" in notebook_path.name:
-                            title = "Lending_Club_Predictions - feature_prep"
+                            title = "Lending Club Predictions - feature prep"
                         elif "Data_Cleaning" in notebook_path.name:
-                            title = "Lending_Club_Predictions - Cleaning"
+                            title = "Lending Club Predictions - Cleaning"
                     
                     # Add to metadata
                     projects_metadata.append({
