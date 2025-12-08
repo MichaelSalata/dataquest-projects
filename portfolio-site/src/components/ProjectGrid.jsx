@@ -6,7 +6,7 @@ function ProjectGrid() {
         <section id="projects" style={{ padding: '4rem 0' }}>
             <div className="container">
                 <h2 style={{ fontSize: '2rem', marginBottom: '2rem', textAlign: 'center' }}>
-                    My <span className="gradient-text">Projects</span>
+                    <span className="gradient-text">Projects</span>
                 </h2>
 
                 <div style={{
