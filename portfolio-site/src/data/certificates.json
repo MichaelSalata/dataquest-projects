@@ -1,0 +1,77 @@
+[
+    {
+        "id": "advanced-data-cleaning",
+        "title": "Advanced Data Cleaning in Python",
+        "filename": "Advanced-Data-Cleaning-in-Python.pdf"
+    },
+    {
+        "id": "calculus-ml",
+        "title": "Calculus For Machine Learning",
+        "filename": "Calculus-For-Machine-Learning.pdf"
+    },
+    {
+        "id": "command-line-ds",
+        "title": "Command Line for Data Science",
+        "filename": "Command-Line-for-Data-Science.pdf"
+    },
+    {
+        "id": "data-cleaning-analysis",
+        "title": "Data Cleaning and Analysis in Python",
+        "filename": "Data-Cleaning-and-Analysis-in-Python.pdf"
+    },
+    {
+        "id": "decision-tree",
+        "title": "Decision Tree Modeling in Python",
+        "filename": "Decision-Tree-Modeling-in-Python.pdf"
+    },
+    {
+        "id": "decision-tree-random-forest",
+        "title": "Decision Tree and Random Forest Modeling in Python",
+        "filename": "Decision-Tree-and-Random-Forest-Modeling-in-Python.pdf"
+    },
+    {
+        "id": "gradient-descent",
+        "title": "Gradient Descent Modeling in Python",
+        "filename": "Gradient-Descent-Modeling-in-Python.pdf"
+    },
+    {
+        "id": "linear-algebra-ml",
+        "title": "Linear Algebra For Machine Learning",
+        "filename": "Linear-Algebra-For-Machine-Learning.pdf"
+    },
+    {
+        "id": "linear-regression",
+        "title": "Linear Regression Modeling in Python",
+        "filename": "Linear-Regression-Modeling-in-Python.pdf"
+    },
+    {
+        "id": "logistic-regression",
+        "title": "Logistic Regression Modeling in Python",
+        "filename": "Logistic-Regression-Modeling-in-Python.pdf"
+    },
+    {
+        "id": "ml-python",
+        "title": "Machine Learning in Python",
+        "filename": "Machine-Learning-in-Python.pdf"
+    },
+    {
+        "id": "optimizing-ml",
+        "title": "Optimizing Machine Learning Models in Python",
+        "filename": "Optimizing-Machine-Learning-Models-in-Python.pdf"
+    },
+    {
+        "id": "sql-fundamentals",
+        "title": "SQL Fundamentals",
+        "filename": "SQL-Fundamentals.pdf"
+    },
+    {
+        "id": "data-viz-design",
+        "title": "Telling Stories Using Data Visualization and Information Design",
+        "filename": "Telling-Stories-Using-Data-Visualization-and-Information-Design.pdf"
+    },
+    {
+        "id": "text-processing",
+        "title": "Text Processing for Data Science",
+        "filename": "Text-Processing-for-Data-Science.pdf"
+    }
+]
