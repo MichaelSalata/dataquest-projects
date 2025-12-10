@@ -9,9 +9,7 @@ function Hero() {
                     A collection of legacy data science & analysis projects I worked on while learning with Dataquest.
                     Exploring insights through Python, SQL, and Machine Learning.
                 </p>
-                <a href="#projects" className="btn btn-primary">
-                    View Projects
-                </a>
+                {/* Removed redundant button: "View Projects" */}
             </div>
         </section>
     );
